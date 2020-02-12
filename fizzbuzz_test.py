@@ -11,7 +11,7 @@ def describe_a_fizzbuzz_program():
         """Make sure our testing infrastructure is working"""
         assert True == True
         
-def can_determine_if_a_number_is_a_multiple_of_3():
-    """Checks to see if a given number is a multiple of 3."""
-    assert fizz(3) == True
-    assert fizz(2) == False
+        def can_determine_if_a_number_is_a_multiple_of_3():
+            """Checks to see if a given number is a multiple of 3."""
+            assert fizz(3) == True
+            assert fizz(2) == False
